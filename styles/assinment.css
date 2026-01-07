@@ -1,3 +1,134 @@
-body {
-    background-color: aquamarine;
+* {
+    margin: 0;
+    padding: 0;
 }
+
+header {
+    /* width: 74%; */
+    max-width: 1536px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 31px 0;
+}
+
+header nav p {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin: 31px 0;
+}
+
+header nav button {
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 106, 80, 1);
+    border-radius: 8px;
+
+}
+
+.nav-btn {
+    font-style: 600;
+    font-size: 18px;
+    padding: 25px;
+    color: rgba(0, 106, 80, 1);
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
+    max-width: 1536px;
+    margin: 0 auto;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    align-items: center;
+}
+
+.banner-container h2 {
+    font-size: 24px;
+    color: rgba(14, 14, 14, 0.5);
+    font-weight: 500;
+}
+
+.banner-container p {
+    font-size: 56px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+
+.banner-container button {
+    background-color: #006A50;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 17px 34px;
+    margin-top: 24px;
+}
+
+.banner-container .banner-text {
+    margin: 117px 198px 117px 59px;
+}
+
+.pillar-container {
+    max-width: 1536px;
+    margin: 0 auto;
+}
+
+.pillar-container-title {
+    margin-top: 80px;
+    font-size: 40px;
+    color: #0E0E0E;
+    margin-bottom: 18px;
+}
+
+
+
+
+
+
+
+
+.cards-parent {
+    display: flex;
+    gap: 24px;
+}
+
+.cards {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 12px;
+    width: 352px;
+
+}
+
+.cards p {}
+
+
+
+/* .pillar-container h2 {
+    max-width: 1536px;
+    margin: 0 auto;
+    margin-top: 80px;
+    font-size: 40px;
+    color: #0E0E0E;
+    margin-bottom: 32PX;
+} */
+
+/* .pillar-container .card-sec {
+    max-width: 1536px;
+    margin: 0 auto;
+    display: flex;
+    gap: 80px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    ;
+    border-radius: 24px;
+} */
+
+/* .pillar-container .card-sec .card-title {
+    margin: 24px 24px 12px;
+} */
