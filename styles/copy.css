@@ -1,0 +1,27 @@
+.future-container {
+    max-width: 1536px;
+    padding-top: 80px;
+    margin: 0 auto;
+}
+
+.future-container h2 {
+    font-size: 40px;
+    color: #0E0E0E;
+}
+
+.future-container p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E0E0E;
+    margin: 24px 0px 32px 0px;
+}
+
+.future-container .future-card {
+
+
+    <h2>The Vision of Future</h2><p>Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology,
+    promoting inclusive growth,
+    and ensuring sustainability. With initiatives in renewable energy,
+    digital transformation,
+    and robust infrastructure,
+    the country is set to become a global model of development. </p><div class="future-card"><img src="./assets/card-icon.png" alt=""><h4>Digital Transformation</h4><p>Creating a nationwide digital ecosystem to enhance connectivity and access to services for all citizens.</p><button>Learn More</button></div></section>
